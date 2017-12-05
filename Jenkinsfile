@@ -4,7 +4,8 @@ pipeline {
             steps {
                 export PATH=/usr/local/bin:$PATH
                 echo "Build Stage"
-                sh 'npm install && npm run test' 
+                sh 'npm install'
+                sh 'npm run test' 
             }
         }
     }
