@@ -1,4 +1,4 @@
-node('NodeJS 6.12.0') {
+node('node') {
 
     currentBuild.result = "SUCCESS"
 
